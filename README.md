@@ -11,7 +11,7 @@ This letter class uses the same eye catching header as the Friggeri CV, and uses
 ## The resume
 
 I've also modified the original friggeri-cv template:
-* The original one used the *HelveticaNeue* font family, which costs money. I changed it to use the almost identical *Roboto* font family, which is free. I've included the *Robot* fonts in this repo.
+* The original one used the *HelveticaNeue* font family, which costs money. I changed it to use the almost identical *Roboto* font family, which is free. For convinience, I've included the *Robot* fonts in this repo.
 * I adjusted the coloring of the headings in the resume, so the whole heading is coloured, not just the first 3 letters. To install the fonts, just double click on them in a file browser. Your operating system should then ask if you want to install them.
 * I tinkered with the spacing of the column where you enter the years, so that new line breaks are automatic.
 * I changed the link coloring, so that links are the same colour as everything else

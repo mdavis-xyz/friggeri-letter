@@ -19,4 +19,4 @@ I've also modified the original friggeri-cv template:
 
 ## Acknowledgements and Copyleft
 
-This code was adapted from the original code written by [Adrien Friggeri](http://www.friggeri.net/) under the Creative Commons 3.0 licence.
+This code was adapted from the original code written by [Adrien Friggeri](http://www.friggeri.net/) under the [Creative Commons 3.0 licence](http://creativecommons.org/licenses/by-nc-sa/3.0/).

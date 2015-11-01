@@ -90,6 +90,8 @@
 %let's reset it
 \setlength\headheight{0\p@}
 
+
+
 \renewcommand*{\opening}[1]{
 \begin{tikzpicture}[remember picture,overlay]
   \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
@@ -102,7 +104,26 @@
     \thinfont \subtitle%
   };
 \end{tikzpicture}
+%\vspace{2.5cm}
 \vspace{-2\parskip}
+  %\def\rectshift{0cm}
+  %\vspace{-\rectshift}
+  %\begin{tikzpicture}[remember picture,overlay]
+%    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north) {};
+
+  %\ifx\@empty\fromaddress
+ % \thispagestyle{firstpage}%
+%    {\raggedleft\@date\par}%
+ % \else  % home address
+%    %\thispagestyle{empty}%
+%    \node [anchor=east,text=fromcolor,align=left] at (box.east) [text=red] {%
+%      \fromaddress%
+%    };
+%  \fi
+ % \end{tikzpicture}
+ % \vspace{\rectshift}
+ % \vspace{-2\parskip}
+ % \vspace{2\parskip}%
   \ifx\@empty\fromaddress
     \thispagestyle{firstpage}%
     {\raggedleft\@date\par}%

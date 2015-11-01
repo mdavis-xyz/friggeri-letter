@@ -28,3 +28,7 @@ I've also modified the original friggeri-cv template:
 This code was adapted from the original code written by [Adrien Friggeri](http://www.friggeri.net/) under the [Creative Commons 3.0 licence](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 The fonts come from [Google Fonts](https://www.google.com/fonts/specimen/Roboto) and are free under the [Apache 2.0 licence.](http://www.apache.org/licenses/LICENSE-2.0.html)
+
+## To do
+
+* Change spacing so that everything lines up relative to the 1/3 fold mark

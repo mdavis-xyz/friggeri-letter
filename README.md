@@ -22,8 +22,8 @@ I've also modified the original friggeri-cv template:
 ## Usage
 
 * Install the fonts.
-* Have the .cls file(s) in the same folder as your .tex file(s). (There's probably a way to install them properly. I don't know what that is.)
-* Start with the example .tex file(s) and modify them to suit your needs.
+* Have the `.cls` file(s) in the same folder as your `.tex` file(s). (There's probably a way to install them properly. I don't know what that is.)
+* Start with the example `.tex` file(s) and modify them to suit your needs.
 
 ## Acknowledgements and Copyleft
 

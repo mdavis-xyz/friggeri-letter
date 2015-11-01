@@ -8,9 +8,10 @@ All resumes should have a cover letter (so I'm told). It would be inconsistent t
 
 This letter class uses the same eye catching header as the Friggeri CV, and uses the Roboto font.
 
-![printscreen][printscreen]
+![letter-printscreen][letter-printscreen]
 
 ## The resume
+
 
 I've also modified the original friggeri-cv template:
 * The original one used the *HelveticaNeue* font family, which costs money. I changed it to use the almost identical *Roboto* font family, which is free. For convinience, I've included the *Robot* fonts in this repo.
@@ -18,6 +19,10 @@ I've also modified the original friggeri-cv template:
 * I tinkered with the spacing of the column where you enter the years, so that new line breaks are automatic.
 * I changed the link coloring, so that links are the same colour as everything else
 * I got rid of the bibliography stuff, because who needs a bibliography in a resume?
+
+
+![resume-printscreen][resume-printscreen]
+
 
 ## Usage
 
@@ -35,4 +40,5 @@ The fonts come from [Google Fonts](https://www.google.com/fonts/specimen/Roboto)
 
 * Change spacing so that everything lines up relative to the 1/3 fold mark
 
-[printscreen]: http://i.imgur.com/ky4uiUV.png
+[letter-printscreen]: http://i.imgur.com/ky4uiUV.png
+[resume-printscreen]: http://imgur.com/dt1GIBE.png

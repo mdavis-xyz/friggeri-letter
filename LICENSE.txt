@@ -1,0 +1,21 @@
+
+These templates have been downloaded from:
+https://github.com/mlda065/friggeri-letter
+
+Original author of the CV:
+Adrien Friggeri (adrien@friggeri.net)
+https://github.com/afriggeri/CV
+
+The CV was modified by
+Matthew Davis (matthew@mdavis.xyz)
+
+The letter was created by Matthew Davis, based on Adrien Friggeri's code
+
+Code License:
+CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+Font Licence:
+Apache 2.0 (https://www.google.com/fonts#UsePlace:use/Collection:Roboto)
+
+Important notes:
+This template needs to be compiled with XeLaTeX

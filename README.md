@@ -17,6 +17,12 @@ I've also modified the original friggeri-cv template:
 * I changed the link coloring, so that links are the same colour as everything else
 * I got rid of the bibliography stuff, because who needs a bibliography in a resume?
 
+## Usage
+
+* Install the fonts.
+* Have the .cls file(s) in the same folder as your .tex file(s). (There's probably a way to install them properly. I don't know what that is.)
+* Start with the example .tex file(s) and modify them to suit your needs.
+
 ## Acknowledgements and Copyleft
 
 This code was adapted from the original code written by [Adrien Friggeri](http://www.friggeri.net/) under the [Creative Commons 3.0 licence](http://creativecommons.org/licenses/by-nc-sa/3.0/).

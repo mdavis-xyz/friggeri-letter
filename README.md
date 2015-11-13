@@ -19,7 +19,7 @@ I've also modified the original friggeri-cv template:
 * I tinkered with the spacing of the column where you enter the years, so that new line breaks are automatic.
 * I changed the link coloring, so that links are the same colour as everything else
 * I got rid of the bibliography stuff, because who needs a bibliography in a resume?
-* I adjusted the *aside* section (the contacts in the left margin), so now they appear on every page. That means changing `aside` from an environment to a command. So look at the example to see the new syntax.
+* I adjusted the *aside* section (the contacts in the left margin), so now they appear on every page. The motivation for this is in case the pages of a hard copy get separated. In the example, the name appears in the contact details in all but the first page (because it's in the header on the first page). This template change means changing `aside` from an environment to a command. So look at the example to see the new syntax.
 
 
 ![resume-printscreen][resume-printscreen]

@@ -41,6 +41,7 @@ The fonts come from [Google Fonts](https://www.google.com/fonts/specimen/Roboto)
 
 * Change spacing so that everything lines up relative to the 1/3 fold mark
 * Add option to only put contact details on the first page
+* Get rid of magic numbers in the templates, so it works with other paper sizes. (Then again, who doesn't use A4?)
 
 [letter-printscreen]: http://i.imgur.com/ky4uiUV.png
 [resume-printscreen]: http://imgur.com/dt1GIBE.png

@@ -39,6 +39,7 @@ The fonts come from [Google Fonts](https://www.google.com/fonts/specimen/Roboto)
 ## To do
 
 * Change spacing so that everything lines up relative to the 1/3 fold mark
+* Put contact details on all pages, not just the first
 
 [letter-printscreen]: http://i.imgur.com/ky4uiUV.png
 [resume-printscreen]: http://imgur.com/dt1GIBE.png

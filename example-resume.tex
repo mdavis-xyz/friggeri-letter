@@ -31,17 +31,28 @@
 %	SIDEBAR SECTION 
 %----------------------------------------------------------------------------------------
 
-\begin{aside} % In the aside, each new line forces a line break
-\section{contact}
-123 Fake St
-Australia
-~ 
-02 1234 5678
-0412 345 678
-~  
-\href{mailto:example@example.com}{example@example.com}
-\href{http://www.smith.com}{http://www.smith.com}
-\end{aside}
+
+\aside{contact}{
+%don't display the name in the contact details on the first page
+%because it's up the top
+%That's why there's the if statement
+\ifx \firstPage \undefined
+   \xdef\firstPage{}
+\else
+John Smith \\
+~ \\
+\fi
+123 Fake St \\
+Australia \\
+~  \\
+02 1234 5678 \\
+0412 345 678 \\
+~   \\
+\href{mailto:example@example.com}{example@example.com} \\
+\href{http://www.smith.com}{http://www.smith.com} \\
+}
+ 
+
 
 
 
@@ -209,6 +220,45 @@ Confident with C, Python, \LaTeX, HTML5
 \end{entrylist}
 
 
+
+%----------------------------------------------------------------------------------------
+%	Human SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{human skills}
+
+\begin{entrylist}
+
+%------------------------------------------------
+
+
+
+\entry
+{}
+{Leadership}
+{}
+{}
+{
+Blah blah blah
+}
+
+%------------------------------------------------
+
+
+\entry
+{}
+{Teamwork}
+{}
+{}
+{
+Blah blah blah
+}
+
+%------------------------------------------------
+
+
+
+\end{entrylist}
 
 
 %----------------------------------------------------------------------------------------

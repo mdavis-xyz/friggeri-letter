@@ -19,6 +19,7 @@ I've also modified the original friggeri-cv template:
 * I tinkered with the spacing of the column where you enter the years, so that new line breaks are automatic.
 * I changed the link coloring, so that links are the same colour as everything else
 * I got rid of the bibliography stuff, because who needs a bibliography in a resume?
+* I adjusted the *aside* section (the contacts in the left margin), so now they appear on every page. That means changing `aside` from an environment to a command. So look at the example to see the new syntax.
 
 
 ![resume-printscreen][resume-printscreen]
@@ -39,7 +40,7 @@ The fonts come from [Google Fonts](https://www.google.com/fonts/specimen/Roboto)
 ## To do
 
 * Change spacing so that everything lines up relative to the 1/3 fold mark
-* Put contact details on all pages, not just the first
+* Add option to only put contact details on the first page
 
 [letter-printscreen]: http://i.imgur.com/ky4uiUV.png
 [resume-printscreen]: http://imgur.com/dt1GIBE.png

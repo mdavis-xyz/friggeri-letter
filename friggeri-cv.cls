@@ -109,6 +109,10 @@
     } #1%
   }%
   \stepcounter{colorCounter}%
+  %reset the counter once we exhaust all colours
+  \ifthenelse{\equal{\value{colorCounter}}{6}}{
+    \setcounter{colorCounter}{0}
+  }{}
 }
 
 \renewcommand{\section}[1]{
@@ -122,7 +126,7 @@
 
 \renewcommand{\subsection}[1]{
   \par\vspace{.5\parskip}%
-  {\Large\headingfont\color{headercolor} #1}
+  {\Large\headingfont\color{headercolor} \@sectioncolor{ #1}}
   \par\vspace{.25\parskip}%
 }
 
@@ -158,6 +162,12 @@
     {#5}\vspace{\parsep}%
   }\\}
 
+\newcommand{\body}[1]{%
+    &\parbox[t]{11.8cm}{%
+    {#1}
+    \vspace{\parsep}
+    \vspace{\parsep}
+}\\}
 
 %%%%%%%%%%%%%%
 % Side block %
@@ -183,7 +193,7 @@
         %
         %all pages aside from the first should have the side bit further up
         %Crude hack to just redefine the y position as we go
-        \xdef\asideHeight{2}
+        \xdef\asideHeight{2.1}
     }
 }
 
@@ -327,7 +337,7 @@
 %%%%%%%%%%%%%%%%
 
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=1.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
 \hypersetup{
     colorlinks=true,

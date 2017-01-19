@@ -307,15 +307,31 @@
   \par\vspace{0.3\baselineskip}
 }
 
+% biblatex name formatting changed with version 3.3. 
+% After this change the line "\ifblank{#3}{}{#3\space}#1%" gives an error.
+% see also: http://tex.stackexchange.com/questions/327316/updating-friggeris-cv-making-it-work-with-texlive-2015-and-up-too-many-erro
+
+%\DeclareNameFormat{author}{%
+%  \small\addfontfeature{Color=lightgray}%
+%  \ifblank{#3}{}{#3\space}#1%
+%  \ifthenelse{\value{listcount}<\value{liststop}}
+%    {\addcomma\space}
+%    {}%
+%}
+
+% Fix for biblatex 3.3
 \DeclareNameFormat{author}{%
-  \small\addfontfeature{Color=lightgray}%
-  \ifblank{#3}{}{#3\space}#1%
-  \ifthenelse{\value{listcount}<\value{liststop}}
-    {\addcomma\space}
-    {}%
+   \nameparts{#1}
+   \small\addfontfeature{Color=lightgray}%
+   \ifblank{\namepartgiven}{}{\namepartgiven\space}#1%
+   \ifthenelse{\value{listcount}<\value{liststop}}
+     {\addcomma\space}
+     {}%
 }
 
-\defbibheading{bibheading}[\bibname]{%   \subsubsection*{#1}   \markboth{#1}{#1}
+\defbibheading{bibheading}[\bibname]{%
+   \subsubsection*{#1}
+   \markboth{#1}{#1}
 }
 
 \newcommand{\printbibsection}[2]{

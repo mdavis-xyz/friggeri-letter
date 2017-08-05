@@ -31,11 +31,11 @@
 %	SIDEBAR SECTION 
 %----------------------------------------------------------------------------------------
 
-
-\aside{contact}{
+ 
+\aside{
+\subsubsection{contact}
 %don't display the name in the contact details on the first page
-%because it's up the top
-%That's why there's the if statement
+%because it's up the top%That's why there's the if statement
 \ifx \firstPage \undefined
    \xdef\firstPage{}
 \else
@@ -49,8 +49,15 @@ Australia \\
 0412 345 678 \\
 ~   \\
 \href{mailto:example@example.com}{example@example.com} \\
-\href{http://www.smith.com}{http://www.smith.com} \\
-}
+\href{http://www.smith.com}{http://www.smith.com}
+~ \\
+~ \\
+\subsubsection{languages}
+English \\
+Spanish \\
+Pig Latin
+} 
+
  
 
 
@@ -60,7 +67,7 @@ Australia \\
 % EXPERIENCE SECTION
 %----------------------------------------------------------------------------------------
 
-\section{experience}
+\section{Experience}
  
 \subsection{Full Time}
 
@@ -129,7 +136,7 @@ description
 %----------------------------------------------------------------------------------------
 
 
-\section{education}
+\section{Education}
 
 \begin{entrylist} 
 
@@ -162,7 +169,7 @@ Thesis topic on something really cool. Electives include this, that and the othe
 %	AWARDS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{awards}
+\section{Awards}
 
 \begin{entrylist}
 
@@ -184,7 +191,7 @@ Thesis topic on something really cool. Electives include this, that and the othe
 %	Technical SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{technical skills}
+\section{Technical Skills}
 
 \begin{entrylist}
 
@@ -226,7 +233,7 @@ Confident with C, Python, \LaTeX, HTML5
 %	Human SKILLS SECTION
 %----------------------------------------------------------------------------------------
 
-\section{human skills}
+\section{Human Skills}
 
 \begin{entrylist}
 
@@ -266,7 +273,7 @@ Blah blah blah
 %	References SECTION 
 %----------------------------------------------------------------------------------------
 
-\section{references}
+\section{References}
 
 
 \begin{entrylist}

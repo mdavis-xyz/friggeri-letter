@@ -130,9 +130,9 @@
   \par\vspace{.25\parskip}%
 }
 
-\renewcommand{\subsubsection}[2]{
+\renewcommand{\subsubsection}[1]{
   \par\vspace{.5\parskip}%
-  {\Large\headingfont\color{headercolor} #2}
+  {\Large\headingfont\color{headercolor} #1}
   \par\vspace{.25\parskip}%
 }
 
@@ -181,13 +181,12 @@
 
 \xdef\asideHeight{5}
 
-\newcommand\aside[2]{
+\newcommand\aside[1]{
     \AddEverypageHook{
         \begin{textblock}{3.6}(1.5, \asideHeight) % {width}(xpos,ypos)
             \begin{flushright}
             \linespread{1}\selectfont
-            {\Large\headingfont\color{headercolor} {#1}} \\
-            #2
+            #1
             \end{flushright}
         \end{textblock}
         %
@@ -307,7 +306,7 @@
   \par\vspace{0.3\baselineskip}
 }
 
-% biblatex name formatting changed with version 3.3. 
+% biblatex name formatting changed with version 3.3.
 % After this change the line "\ifblank{#3}{}{#3\space}#1%" gives an error.
 % see also: http://tex.stackexchange.com/questions/327316/updating-friggeris-cv-making-it-work-with-texlive-2015-and-up-too-many-erro
 

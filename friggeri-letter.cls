@@ -60,7 +60,7 @@
 %%%%%%%%%
 
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+%\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math} % https://tex.stackexchange.com/questions/353136/compilation-error-option-unknown-unicode-math
 
 \newfontfamily\bodyfont[]{Roboto-Regular}
 \newfontfamily\thinfont[]{Roboto-Thin}

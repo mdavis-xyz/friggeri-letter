@@ -30,10 +30,11 @@ I've also modified the original friggeri-cv template:
 * Install the fonts.
 * Have the `.cls` file(s) in the same folder as your `.tex` file(s). (There's probably a way to install them properly. I don't know what that is.)
 * Start with the example `.tex` file(s) and modify them to suit your needs.
+* This template needs to be compiled with XeLaTeX
 
 ## Acknowledgements and Copyleft
 
-This code was adapted from the original code written by [Adrien Friggeri](http://www.friggeri.net/) under the [Creative Commons 3.0 licence](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+This code was adapted from the original code written by [Adrien Friggeri](http://www.friggeri.net/) under the MIT License, printed in full in [LICENSE.txt](LICENSE.txt).
 
 The fonts come from [Google Fonts](https://www.google.com/fonts/specimen/Roboto) and are free under the [Apache 2.0 licence.](http://www.apache.org/licenses/LICENSE-2.0.html)
 

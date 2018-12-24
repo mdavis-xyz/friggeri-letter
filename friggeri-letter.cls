@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{my_cv}[2015/10/31 Cover letter for friggeri resume]
+\ProvidesClass{friggeri-letter}[2015/10/31 Cover letter for friggeri resume]
 
 
 \DeclareOption{print}{\def\@cv@print{}}
@@ -60,7 +60,9 @@
 %%%%%%%%%
 
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+% https://tex.stackexchange.com/questions/353136/compilation-error-option-unknown-unicode-math
+%\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math} % https://tex.stackexchange.com/questions/353136/compilation-error-option-unknown-unicode-math
+\RequirePackage[]{unicode-math}
 
 \newfontfamily\bodyfont[]{Roboto-Regular}
 \newfontfamily\thinfont[]{Roboto-Thin}

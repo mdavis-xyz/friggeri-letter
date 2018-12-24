@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{my_cv}[2015/10/31 Cover letter for friggeri resume]
+\ProvidesClass{friggeri-letter}[2015/10/31 Cover letter for friggeri resume]
 
 
 \DeclareOption{print}{\def\@cv@print{}}
